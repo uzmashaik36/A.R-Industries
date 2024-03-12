@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A R Industries new</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Balsamiq+Sans:wght@400;700&family=Caveat&family=Pangolin&family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header1">
+        <nav>
+          <a href="index.html"><img src="./ar-logo.jpg" /></a>
+          <a href="index.html"><p class="ar1">A.R.Industries</p></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"> </i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="product.html">PRODUCTS</a></li>
+                <li><a href="contact.html"> CONTACT US</a></li>
+                <li><a href="enquiry.html">ENQUIRY</a></li>
+            </ul>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"> </i>
+        </nav>
+        <h1>Enquiry Here To Know More About Us</h1>
+      </section>
+   <!-------------------------   enquiry here----------------------------------->
+    <section class="blog-content">
+      <div class="row">
+      
+        <div class="blog-left enquiry-col">
+        
+          <img src="edge cutting.jpg" class="edgeimg">
+        </div>
+        <div class="comment-box">
+     
+          <h3>Order Your Product</h3>
+
+          <form class="comment-form">
+            <input type="text" placeholder="Product Name">
+           <input type="text" placeholder="Enter Your Name">
+           <input type="email" placeholder="Enter Your Email">
+           <textarea rows="5" placeholder="Your Comment"></textarea>
+           <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+          </form>
+
+
+         </div>
+      </div>
+      <div class="blog-right">
+        <h3>Product name</h3>
+        <div>
+          <span>Block Cutter</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Block Dressing</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Derrick Crane</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Diamond Gangsaw</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Edge Cutting</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Eot Crane</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Gangsaw</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Gantry Crane</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Line Polishing</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Mud Pump</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Stone Crusher</span>
+          <span>---</span>
+        </div>
+        <div>
+          <span>Wiresaw</span>
+          <span>---</span>
+        </div>
+        
+      </div>
+    </div> 
+    </section>
+
+
+ <!------------------     footer   ------------------------>
+      
+
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Facere reiciendis porro maiores saepe, accusamus.<br> cumque soluta unde suscipit nesciunt nihil officia.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+   
+    <div class="center">
+        Copyright &copy; www.ARIndustries.com. All rights reserved!
+      </div>
+ </section>
+
+
+
+
+
+
+     <!-------JavaScript for Toggle menu --------->
+     <script>
+        var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+            navLinks.style.right = "0";
+         }
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+         }
+       
+    </script>
+</body>
+</html>
